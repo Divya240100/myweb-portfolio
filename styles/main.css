@@ -1,25 +1,4 @@
 .portforlio{
 
     background-color:rgb(45, 59, 73);   
-    ul{
-        list-style-type: none;
-        margin: 40;
-        padding: 20;
-        overflow: hidden;
-       
-        }
-      li {
-        float: left;
-      }
-      
-      li a {
-        display: block;
-        color: aliceblue;
-        text-align: center;
-        padding: 10px ;
-        text-decoration-style: none;
-      }
-      
-      li a:hover {
-        background-color: rgb(238, 229, 238);
 }
