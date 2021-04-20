@@ -37,8 +37,12 @@ body {
 }
 
 .paragraph {
-    color: #b3bde6;
+    color: #cec4b6;
     text-align: left;
     font-size: 15px;
 }
 
+.button {
+    text-align: center;
+       
+}
