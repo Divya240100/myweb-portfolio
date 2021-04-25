@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./img">
     <meta charset="utf-8">
     <title>Edge Car Rental</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -22,60 +23,90 @@
         <img class="banner-image" src="img/banner.png" height:20px;>
     </div>
 
-    <Body background="img/background.png"> <br> 
+    <Body background="img/background.png"> <br>
     </header>
+
 <body>
-  <div>
-    <img src="./img/Car pic.jpg" alt="car"  style="float:right; width:950px;height:500px;">
-   </div>
+ <div class="w3-content w3-display-container">
+    <img class="mySlides" src="./img/Car pic.jpg" alt="car"  style="float:right; width:800px;height:500px;">
+    <img class="mySlides" src="./img/Car_pic.png" alt="car" style="float:right; width:800px;height:500px;">
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>>
+
+   
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+     var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    }
+    
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="paragraph">
         Welcome to the number one car renting website<br>
-        Fast, reliable, trustworthy<br><br>
+        Fast, reliable, trustworthy<br><br><br><br>
 
-        Search rental cars by destination<br>
-        <h2>Find Car Rentals</h2><br><br>
-        <h3>Save money on rental cars by searching for car rental deals on EDGE MOTORS.<br>
+    
+        <br><h2>Find Car Rentals</h2><br>
+        <div class="button" style="height: 80px;width:255px;">SEARCH YOUR CAR</button><br><br><br><br><br><br><br><br><br>
+    
+            </div>
+       <div class="text">
+       <h3>Save money on rental cars by searching for car rental deals on EDGE MOTORS.<br>
         Select the best offer for you between all available deals!</h3>
-        Our smart booking engine searches for the best price, car category, extras, exclusive offers <br>and discounts suiting your needs.
-        You can securely book online today only with a small <br>downpayment and pay the rest upon your arrival at the desk!
-        One of our top priorities <br>is to adjust each package we offer to our customer’s exact needs.
-        We offer a variety of<br> options that can enhance your experience, Always according to your necessities,
-        and <br>help you get the best out of your holidays or your business trip.<br><br><br><br><br>
+        Our smart booking engine searches for the best price, car category, extras, exclusive offers and discounts suiting your needs.
+        You can securely book online today only with a small downpayment and pay the rest upon your arrival at the desk!
+        One of our top priorities is to adjust each package we offer to our customer’s exact needs.
+        We offer a variety of options that can enhance your experience, Always according to your necessities,
+        and help you get the best out of your holidays or your business trip.
+        Live a new fantasy every time you rent a car from Edge Motor!!<br><br><br>
 
+       </div>
 
-        <div class="button">
-          
-        <button style="height: 60px;width:180px;">BOOK NOW</button>
-      </div><br>
+        <h1>Join us!</h1>
+        
+        <div class="fa">
 
-      <div class="fa" >
-       <!-- Add font awesome icons -->
-       <a href="#" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-twitter"></a>
-       <a href="#" class="fa fa-snapchat-ghost"></a>
-       <a href="#" class="fa fa-linkedin"></a>
-       <a href="#" class="fa fa-instagram"></a>
-       <a href="#" class="fa fa-skype"></a>
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+           
+               
+            <a href="#" text-align="left" class="fa fa-facebook"  ></href></a> <a href="#" text-align="center" class="fa fa-twitter"></a> <a href ="#" class="fa fa-instagram"></a>  <a href="#" class="fa fa-snapchat-ghost"></a> </p>
 
 </html>
