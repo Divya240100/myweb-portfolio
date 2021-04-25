@@ -38,7 +38,7 @@ body {
 
 .paragraph {
     color: #cec4b6;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
 }
 
@@ -55,23 +55,22 @@ body {
     border: none;
    color: rgb(10, 7, 15);
    padding: 2px 2px;
-   text-align: center;
    text-decoration:cadetblue;
    display: inline-block;
-   font-size: 34px;
+   font-size: 35px;
    margin: 5px 5px;
    cursor: pointer;
 }
 
 .fa{
-  
-    text-align:right;
+    color: bisque;
     padding: 10px;
     font-size: 30px;
     width: 28px;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
+    display: inline;
 }
 .fa:hover {
     opacity: 0.7;
@@ -103,3 +102,7 @@ body {
   .mySlides {
       display:none;
     }
+        
+.address{
+    color: rgba(252, 252, 252, 0.993);
+}
