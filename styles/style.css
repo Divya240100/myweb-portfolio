@@ -2,9 +2,15 @@ body {
     margin: 0;
     padding: 0 15px 0 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
 }
 
+    
+.myslides-content myslides-container{
+    width: 100%;
+}
 .nav {
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
     color: #ffffff;
     list-style: none;
@@ -37,12 +43,14 @@ body {
 }
 
 .paragraph {
+    width: 100%;
     color: #cec4b6;
     text-align: center;
     font-size: 15px;
 }
 
 .text{
+    width: 100%;
     color: #cec4b6;
     text-align: center;
     font-size: 20px;
@@ -50,6 +58,7 @@ body {
 }
 
 .button {
+    width: 100%;
     text-align: center;
     background-color: rgb(186, 228, 222);
     border: none;
@@ -63,8 +72,9 @@ body {
 }
 
 .fa{
+    width: 100%;
     color: bisque;
-    padding: 10px;
+    padding: 20px;
     font-size: 30px;
     width: 28px;
     text-decoration: none;
@@ -104,54 +114,27 @@ body {
     }
         
 .address{
+    width: 100;
     color: rgba(252, 252, 252, 0.993);
 }
-@media only screen and (min-width: 375px) {
-/*mobile */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
-  
 
-  @media only screen and (min-width: 768px) {
-    /* desktop */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+ @media only screen and (min-width:375px){
+   
 
-  @media only screen and (min-width: 1200px) {
-     /* All screen*/
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+    .myslides-content myslides-container{
+        max-width:100%;
+    }
+
+
+    .fa{
+        width: 75%;
+
+    }
+        .text{
+            width: 100%;
+        }
+            .address{
+                width: 100;  
+            }
 }
