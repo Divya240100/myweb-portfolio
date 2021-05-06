@@ -137,4 +137,40 @@ body {
             .address{
                 width: 100;  
             }
+
+@media only screen and (min-width:768px){
+
+    .myslides-content myslides-container{
+        max-width:90%;
+    }
+
+
+    .fa{
+        width: 95%;
+
+    }
+        .text{
+            width: 100%;
+        }
+            .address{
+                width: 100;  
+            }
+@media only screen and (min-width:1200px){
+
+                .myslides-content myslides-container{
+                    max-width:100%;
+                }
+            
+            
+                .fa{
+                    width: 100%;
+            
+                }
+                    .text{
+                        width: 100%;
+                    }
+                        .address{
+                            width: 100;  
+                        }
+
 }
