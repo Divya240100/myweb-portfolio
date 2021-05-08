@@ -121,60 +121,34 @@ body {
 
 
  @media only screen and (min-width:375px){
-   
+  .text{
+    max-width: max-content;
+     text-align: center;
 
-    .myslides{
-        max-width:100%;
-    }
+ }
 
-
-    .fa{
-        width: 75%;
-
-    }
-        .text{
-            width: 100%;
-        }
-            .address{
-                width: 100%;  
-            }
+ .mySlides{
+    max-width: max-content;
+    text-align: center;
+ }
 
 @media only screen and (min-width:768px){
 
-    .myslides-content myslides-container{
-        max-width:90%;
+    .text{
+        max-width: max-content;
+        text-align: center;
+   
     }
-
-
-    .fa{
-        width: 95%;
-
-    }
-        .text{
-            width: 100%;
-        }
-            .address{
-                width: 100%;  
-            }
+   
 @media only screen and (min-width:1200px){
 
-                .myslides-content myslides-container{
-                    max-width:100%;
-                    padding: 10px;
-                }
-            
-            
-                .fa{
-                    width: 100%;
-            
-                }
-                    .text{
-                        width: 100%;
-                    }
-                        .address{
-                            width: 100%;  
-                        }
-
-                    }
-                }
+                
+    .text{
+        max-width: max-content;
+        text-align: center;
+   
+               
             }
+        }
+}
+}
