@@ -74,7 +74,7 @@ body {
 .fa{
     width: 100%;
     color: bisque;
-    padding: 20px;
+    padding: 8px;
     font-size: 30px;
     width: 28px;
     text-decoration: none;
@@ -114,7 +114,8 @@ body {
     }
         
 .address{
-    width: 100;
+    width: 100%;
+    text-align: right;
     color: rgba(252, 252, 252, 0.993);
 }
 
@@ -122,8 +123,8 @@ body {
  @media only screen and (min-width:375px){
    
 
-    .myslides-content myslides-container{
-        max-width:50%;
+    .myslides{
+        max-width:100%;
     }
 
 
@@ -135,7 +136,7 @@ body {
             width: 100%;
         }
             .address{
-                width: 100;  
+                width: 100%;  
             }
 
 @media only screen and (min-width:768px){
@@ -153,12 +154,13 @@ body {
             width: 100%;
         }
             .address{
-                width: 100;  
+                width: 100%;  
             }
 @media only screen and (min-width:1200px){
 
                 .myslides-content myslides-container{
                     max-width:100%;
+                    padding: 10px;
                 }
             
             
@@ -170,7 +172,9 @@ body {
                         width: 100%;
                     }
                         .address{
-                            width: 100;  
+                            width: 100%;  
                         }
 
-}
+                    }
+                }
+            }
